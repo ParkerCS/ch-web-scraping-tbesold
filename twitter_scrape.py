@@ -18,3 +18,4 @@ tweets = [x.text.strip() for x in soup.findAll('p', {'class' :"TweetTextSize Twe
 for i in range(len(tweets)):
     print(tweets[i])
 
+#I understand where the "p" and the class are coming from, but I had to look at other peoples work to get the whole thing to work exactly right
